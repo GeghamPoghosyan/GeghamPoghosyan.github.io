@@ -1,0 +1,92 @@
+.content{
+  padding: 5rem ;
+  height: 100%;
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(246, 246, 246);
+}
+.myOverlay {
+  position: fixed;
+  top: 1rem;
+  left: 25%;
+  right: 0;
+  bottom: 0;
+}
+.myModal {
+  width:60%;
+  height: 87%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+ // border: 1px solid grey;
+  background: #fff;
+  //overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 4rem;
+}
+.youMight{
+  color: darkorange;
+  margin-left: 2rem;
+}
+.modalHeader{
+
+  display: flex;
+  justify-content: end;
+}
+.cancelButton {
+  -webkit-appearance: button;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin:0;
+  font-weight: bold;
+  ßfont: 400 11px system-ui;
+  padding: 1px 7px 3px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+  border-image: initial;
+  background-color: white;
+}
+.cancelButtonContainer{
+  color: rgb(106, 106, 106);
+  display: flex;
+  justify-content: end;
+}
+.modalContainer{
+
+  height: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+.beerNameInPopup {
+  color: darkorange;
+}
+.beerTagLineInPopup{
+  color: darkgrey;
+}
+.contains{
+  font-size: 30px;
+  color: grey;
+}
+.imageContainer{
+  width: 18%;
+}
+.containContainer{
+  width: 65%;
+}
+.randomContainer {
+
+  display: flex;
+  justify-content: space-around;
+}

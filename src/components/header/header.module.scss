@@ -1,0 +1,28 @@
+.header{
+  background-color: darkorange;
+  height: 14rem;
+  color: white;
+  text-align: center;
+  border: 1px solid red;
+}
+.header_routes{
+  display: flex;
+  justify-content: end;
+  padding: 10px 10px;
+}
+.link{
+  text-decoration: none;
+  color:whitesmoke;
+  margin-left:1rem;
+}
+.inputName{
+  width: 20rem;
+  border: none;
+  height: 1.5rem;
+  border-radius: 5px;
+  align-content: center;
+  text-indent: 0.7rem;
+}
+.inputName:focus{
+  outline: none;
+}

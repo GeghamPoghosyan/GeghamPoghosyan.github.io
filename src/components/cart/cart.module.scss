@@ -1,0 +1,47 @@
+.cart{
+  margin: 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  height: 25rem;
+  width: 20rem;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  &_large {
+    width: 10rem;
+    height: 20rem;
+  }
+}
+.cart:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 40px;
+  height: 26rem;
+  width: 21rem;
+}
+
+.cartContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 27rem;
+  width: 22rem;
+}
+.beerName{
+  color: darkorange;
+}
+.tagline{
+  color: darkgray;
+}
+.image{
+  width: 2rem;
+  height: 7rem;
+}
+.starBox{
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+.star{
+  width: 40px;
+  height: 40px;
+  cursor:grab;
+}
