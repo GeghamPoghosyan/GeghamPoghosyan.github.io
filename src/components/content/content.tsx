@@ -24,7 +24,6 @@ function Content(props: any) {
         useEffect(() => {
             axios.get(`https://api.punkapi.com/v2/beers/${beerId}`).then((res: any) => {
                 setSingleBeer(res.data)
-                console.log(res.data,121212)
             })
 
         }, [beerId])
